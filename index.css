@@ -1,102 +1,82 @@
 html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    box-sizing: border-box;
-    /* font-family: Arial, Helvetica, sans-serif; */
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-  
-  .container {
-    display: flex;
-    /* background-color: silver; */
-    background-color: #f7fdfc;
-    /* background-color: #f7fdfc; */
-    /* flex-direction: column; */
-    justify-content: space-evenly;
-  }
-  
-  #header {
-    width: 500px;
-    margin: 0px auto;
-    display: flex;
-    box-sizing: border-box;
-    /* background-color: aqua; */
-     height: 90vh;
-     align-items: center;
-     margin-top: 25px;
-     margin-bottom: 10px;
-    /* flex-direction: column; */
-    /* justify-content: space-evenly; */
-    /* font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 0.9px; */
-    /* flex-wrap: wrap; */
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+  display: flex;
+  background-color: #f7fdfc;
+  justify-content: space-evenly;
+}
+
+#header {
+  width: 500px;
+  margin: 0px auto;
+  display: flex;
+  box-sizing: border-box;
+  height: 90vh;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 .header-box {
-    width: 400px;
-    margin: 0 auto;
-    height: 60vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    /* background-color: pink; */
+  width: 400px;
+  margin: 0 auto;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .header-h1 {
-  /* font-family: Arial, Helvetica, sans-serif; */
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .header-p {
-  /* font-family: Arial, Helvetica, sans-serif; */
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-  
-  #main {
-    width: 780px;
-    margin: 0px auto;
-    display: flex;
-    box-sizing: border-box;
-    /* background-color: whitesmoke; */
-    background-color: #ffffff;
-    /* background-color: crimson; */
-    height: 90vh;
-    align-items: center;
-    margin-top: 25px;
-    margin-bottom: 10px;
-    /* flex-direction: column; */
-    /* justify-content: space-evenly; */
-    /* font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 0.9px; */
-    /* flex-wrap: wrap; */
+
+#main {
+  width: 780px;
+  margin: 0px auto;
+  display: flex;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  height: 90vh;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 10px;
 }
 
 .main-box {
-    width: 680px;
-    margin: 0 auto;
-    height: 80vh;
-    /* background-color: blue; */
+  width: 680px;
+  margin: 0 auto;
+  height: 80vh;
 }
 
 .first-section {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  /* background-color: orange; */
   height: 35vh;
 }
 
 .blockA {
   display: flex;
-  /* background-color: red; */
   height: 10vh;
 }
 
@@ -107,7 +87,6 @@ html {
 #first-name {
   height: 6vh;
   width: 310px;
-  /* outline: none; */
   padding-left: 9px;
 }
 
@@ -123,7 +102,6 @@ html {
 
 .blockB {
   display: flex;
-  /* background-color: blue; */
   height: 10vh;
 }
 
@@ -149,7 +127,6 @@ html {
 
 .blockC {
   display: flex;
-  /* background-color: purple; */
   height: 10vh;
 }
 
@@ -165,7 +142,7 @@ html {
 
 .Height {
   width: 50%;
-} 
+}
 
 #height {
   height: 6vh;
@@ -177,13 +154,11 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  /* background-color: orchid; */
   height: 45vh;
 }
 
 .boxA {
   display: flex;
-  /* background-color: red; */
   height: 10vh;
 }
 
@@ -196,10 +171,8 @@ html {
   width: 660px;
 }
 
-
 .boxB {
   display: flex;
-  /* background-color: blue; */
   height: 10vh;
 }
 
@@ -214,12 +187,10 @@ html {
 
 .boxC {
   display: flex;
-  /* background-color: purple; */
   height: 10vh;
 }
 
 .Button {
-  /* background-color: #2ec4b6; */
   width: 100%;
 }
 
@@ -237,7 +208,6 @@ html {
 
 .boxD {
   display: flex;
-  /* background-color: pink; */
   height: 6vh;
 }
 
@@ -250,7 +220,6 @@ html {
   letter-spacing: 0.9px;
 }
 
-
 @media (max-width: 480px) {
   html {
     margin: 0;
@@ -258,13 +227,15 @@ html {
     width: 100%;
     box-sizing: border-box;
   }
-  
+
   body {
     margin: 0;
     padding: 0;
     width: 100%;
     box-sizing: border-box;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
   }
 
   .container {
@@ -279,287 +250,264 @@ html {
     width: 310px;
     margin: 0px auto;
     box-sizing: border-box;
-    /* background-color: aqua; */
     height: 80vh;
-}
+  }
 
-.header-box {
+  .header-box {
     width: 300px;
     margin: 0 auto;
-    /* background-color: pink; */
     height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
   }
 
-#main {
-  width: 310px;
-  margin: 0px auto;
-  display: flex;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  background-color: #ffffff;
-  height: 140vh;
-}
 
-.main-box {
-  width: 300px;
-  margin: 0 auto;
-  height: 90vh;
-  /* background-color: blue; */
-}
+  #main {
+    width: 310px;
+    margin: 0px auto;
+    display: flex;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    height: 140vh;
+  }
 
-.first-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  /* background-color: orange; */
-  height: 90vh;
-}
+  .main-box {
+    width: 300px;
+    margin: 0 auto;
+    height: 90vh;
+  }
 
-.blockA {
-  display: flex;
-  width: 280px;
-  margin: 0 auto;
-  flex-direction: column;
-  justify-content: space-evenly;
-  /* background-color: red; */
-  height: 30vh;
-}
+  .first-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 90vh;
+  }
 
-.FirstName {
-  /* background-color: blue; */
-  width: 270px;
-  margin: 0 auto;
-  width: 100%;
-  height: 15vh;
-}
+  .blockA {
+    display: flex;
+    width: 280px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 30vh;
+  }
 
-#first-name {
-  margin: 0 auto;
-  height: 6vh;
-  width: 260px;
-  outline: none;
-  padding-left: 9px;
-}
+  .FirstName {
+    width: 270px;
+    margin: 0 auto;
+    width: 100%;
+    height: 15vh;
+  }
 
-.LastName {
-  width: 270px;
-  margin: 0 auto;
-  width: 100%;
-  /* background-color: purple; */
-  height: 15vh;
-  
-}
+  #first-name {
+    margin: 0 auto;
+    height: 6vh;
+    width: 260px;
+    outline: none;
+    padding-left: 9px;
+  }
 
-#last-name {
-  margin: 0 auto;
-  height: 6vh;
-  width: 260px;
-  padding-left: 9px;
-}
+  .LastName {
+    width: 270px;
+    margin: 0 auto;
+    width: 100%;
+    height: 15vh;
+  }
 
-.blockB {
-  display: flex;
-  flex-direction: column;
-  width: 280px;
-  margin: 0 auto;
-  /* background-color: blue; */
-  height: 30vh;
-}
+  #last-name {
+    margin: 0 auto;
+    height: 6vh;
+    width: 260px;
+    padding-left: 9px;
+  }
 
-.Gender {
-  width: 270px;
-  margin: 0 auto;
-  width: 100%;
-  height: 15vh;
-  /* background-color: crimson; */
-}
+  .blockB {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    margin: 0 auto;
+    height: 30vh;
+  }
 
-#gender {
-  width: 260px;
-  margin: 0 auto;
-  height: 6vh;
-  padding-left: 9px;
-}
+  .Gender {
+    width: 270px;
+    margin: 0 auto;
+    width: 100%;
+    height: 15vh;
+  }
 
-.Birthday {
-  width: 270px;
-  margin: 0 auto;
-  height: 15vh;
-  /* background-color: chartreuse; */
-  width: 100%;
-}
+  #gender {
+    width: 260px;
+    margin: 0 auto;
+    height: 6vh;
+    padding-left: 9px;
+  }
 
-#birthday {
-  width: 260px;
-  margin: 0 auto;
-  height: 6vh;
-  padding-left: 9px;
-}
+  .Birthday {
+    width: 270px;
+    margin: 0 auto;
+    height: 15vh;
+    width: 100%;
+  }
 
-.blockC {
-  width: 280px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  /* background-color: purple; */
-  height: 30vh;
-}
+  #birthday {
+    width: 260px;
+    margin: 0 auto;
+    height: 6vh;
+    padding-left: 9px;
+  }
 
-.Weight {
-  width: 270px;
-  margin: 0 auto;
-  /* background-color: red; */
-  height: 15vh;
-  width: 100%;
-}
+  .blockC {
+    width: 280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+  }
 
-#weight { 
-  width: 260px;
-  margin: 0 auto;
-  height: 6vh;
-  padding-left: 9px;
-}
+  .Weight {
+    width: 270px;
+    margin: 0 auto;
+    height: 15vh;
+    width: 100%;
+  }
 
-.Height {
-  width: 270px;
-  margin: 0 auto;
-  height: 15vh;
-  /* background-color: blue; */
-  width: 100%;
-} 
+  #weight {
+    width: 260px;
+    margin: 0 auto;
+    height: 6vh;
+    padding-left: 9px;
+  }
 
-#height {
-  width: 260px;
-  margin: 0 auto;
-  height: 6vh;
-  padding-left: 9px;
-}
+  .Height {
+    width: 270px;
+    margin: 0 auto;
+    height: 15vh;
+    width: 100%;
+  }
 
-.second-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  /* background-color: orchid; */
-  height: 50vh;
-}
+  #height {
+    width: 260px;
+    margin: 0 auto;
+    height: 6vh;
+    padding-left: 9px;
+  }
 
-.boxA { 
-  position: relative;
-  bottom: -5px;
-  width: 280px;
-  margin: 0 auto;
-  display: flex;
-  /* justify-content: center; */
-  /* background-color: red; */
-  height: 16vh;
-}
+  .second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 50vh;
+  }
 
-.Activity-level {
-  position: absolute;
-  width: 270px;
-  margin: 0 auto;
-  height: 15vh;
-  width: 100%;
-}
+  .boxA {
+    position: relative;
+    bottom: -5px;
+    width: 280px;
+    margin: 0 auto;
+    display: flex;
+    height: 16vh;
+  }
 
-#activity-level {
-  width: 260px;
-  margin: 0 auto;
-  height: 6vh;
-}
+  .Activity-level {
+    position: absolute;
+    width: 270px;
+    margin: 0 auto;
+    height: 15vh;
+    width: 100%;
+  }
 
+  #activity-level {
+    width: 260px;
+    margin: 0 auto;
+    height: 6vh;
+  }
 
-.boxB {
-  position: relative;
-  bottom: -30px;
-  width: 280px;
-  margin: 0 auto;
-  display: flex;
-  /* background-color: blue; */
-  height: 16vh;
-}
+  .boxB {
+    position: relative;
+    bottom: -30px;
+    width: 280px;
+    margin: 0 auto;
+    display: flex;
+    height: 16vh;
+  }
 
-.Password {
-  position: absolute;
-  width: 270px;
-  margin: 0 auto;
-  height: 15vh;
-  width: 100%;
-}
+  .Password {
+    position: absolute;
+    width: 270px;
+    margin: 0 auto;
+    height: 15vh;
+    width: 100%;
+  }
 
-#password {
-  width: 260px;
-  margin: 0 auto;
-  height: 6vh;
-}
+  #password {
+    width: 260px;
+    margin: 0 auto;
+    height: 6vh;
+  }
 
-.boxC {
-  width: 280px;
-  margin: 0 auto;
-  display: flex;
-  /* background-color: purple; */
-  height: 16vh;
-}
+  .boxC {
+    width: 280px;
+    margin: 0 auto;
+    display: flex;
+    height: 16vh;
+  }
 
-.Button {
-  position: relative;
-  bottom: -45px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 270px;
-  margin: 0 auto;
-  height: 15vh;
-  /* background-color: #2ec4b6; */
-  width: 100%;
-}
+  .Button {
+    position: relative;
+    bottom: -45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    margin: 0 auto;
+    height: 15vh;
+    width: 100%;
+  }
 
-.btn {
-  position: absolute;
-  color: white;
-  width: 260px;
-  margin: 0 auto;
-  background-color: #2ec4b6;
-  height: 6vh;
-  padding: 9px;
-}
+  .btn {
+    position: absolute;
+    color: white;
+    width: 270px;
+    margin: 0 auto;
+    background-color: #2ec4b6;
+    height: 6vh;
+    padding: 9px;
+  }
 
-.info {
-  color: #2ec4b6;
-  text-decoration: underline;
-}
+  .info {
+    color: #2ec4b6;
+    text-decoration: underline;
+  }
 
-.boxD {
-  width: 280px;
-  margin: 0 auto;
-  display: flex;
-  /* background-color: pink; */
-  height: 20vh;
-  position: relative;
-  bottom: -110px;
-}
+  .boxD {
+    width: 280px;
+    margin: 0 auto;
+    display: flex;
+    height: 20vh;
+    position: relative;
+    bottom: -130px;
+  }
 
-.Paragraph {
-  position: absolute;
-  width: 270px;
-  margin: 0 auto;
-  width: 100%;
-  height: 13vh;
-}
+  .Paragraph {
+    position: absolute;
+    width: 270px;
+    margin: 0 auto;
+    width: 100%;
+    height: 13vh;
+  }
 
-#paragraph {
-  width: 260px;
-  margin: 0 auto;
-  text-align: center;
-  letter-spacing: 0.6px;
-}
-
-
-  
-
+  #paragraph {
+    width: 260px;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 0.6px;
+  }
 }
