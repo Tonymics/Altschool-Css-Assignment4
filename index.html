@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css-Assignment-4</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+  </head>
+  <body class="container">
+
+    <div id="header">
+
+      <div class="header-box">
+        <div class="logo"><img src="./logo/Logo.png" alt="Company logo"></div>
+        <h1 class="header-h1">For Individuals</h1>
+        <p class="header-p">Start benefiting from the wellness experience. For companies looking on increasing productivity, and improving organization wellness.</p>
+
+      </div>
+
+    </div>
+
+    <div id="main">
+
+      <div class="main-box">
+        <form action="#">
+
+          <div class="first-section">
+
+            <div class="blockA">
+              <div class="FirstName">
+
+                <div>
+                  <label for="first-name"><b>First Name</b></label>
+                </div>
+  
+                <div>
+                  <input type="text"  id="first-name" name="first-name" placeholder="Anthony" required>
+                </div>
+  
+              </div>
+            
+              <div class="LastName">
+  
+                <div>
+                  <label for="last-name"><b>Last Name</b></label>
+                </div>
+  
+                <div>
+                  <input type="text" id="last-name" name="last-name" required>
+  
+                </div>
+              </div>
+            </div>
+
+            <div class="blockB">
+              <div class="Gender">
+
+                <div>
+                  <label for="gender"><b>Gender</b></label>
+                </div>
+  
+                <div>
+                  <input list="genders" id="gender" name="gender" placeholder="Select here" required />
+                  <datalist id="genders">
+                  <option value="Male"></option>
+                  <option value="Female"></option>
+                  </datalist>
+                </div>
+  
+              </div>
+  
+              <div class="Birthday">
+  
+                <div>
+                  <label for="birthday"><b>Date of Birth</b></label>
+                </div>
+  
+                <div>
+                  <input type="date" id="birthday" name="birthday"  placeholder="Select here" required />
+                </div>
+  
+              </div>
+            </div>
+
+            <div class="blockC">
+              <div class="Weight">
+
+                <div>
+                  <label for="weight"><b>Weight (KG)</b></label>
+                </div>
+  
+                <div>
+                  <input type="text"  id="weight" name="weight" placeholder="Enter Weight" required>
+                </div>
+  
+              </div>
+  
+              <div class="Height">
+  
+                <div>
+                  <label for="height"><b>Height (CM)</b></label>
+                </div>
+  
+                <div>
+                  <input type="text"  id="height" name="height" placeholder="Enter Height here.." required>
+                </div>
+  
+              </div>
+            </div>
+
+            
+
+            
+          </div>
+
+          <div class="second-section">
+
+            <div class="boxA">
+              <div class="Activity Level">
+
+                <div>
+                  <label for="activity-level"><b>Activity Level</b></label>
+                </div>
+
+                <div>
+                  <input list="activity-levels" id="activity-level" name="activity-level" placeholder="Select here" required />
+                  <datalist id="activity-levels">
+                  <option value="Active"></option>
+                  <option value="Moderately active"></option>
+                  <option value="Moderate"></option>
+                  <option value="Light"></option>
+                  </datalist>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="boxB">
+
+              <div class="Password">
+
+                <div>
+                  <label for="password"><b>Password</b></label>
+                </div>
+
+                <div>
+                  <input type="password" id="password" name="password" required />
+                </div>
+
+              </div>
+            </div>
+
+            <div class="boxC">
+
+              <div class="Button">
+                <button class="btn" type="submit">Register</button>
+              </div>
+
+              
+
+            </div>
+
+            <div class="boxD">
+              <div class="Paragraph">
+                <b>
+                  <p id="paragraph">By clicking Register, you agree to our <span class="info">Terms of Use</span> and our <span class="info">Privacy Policy</span></p>
+                </b>
+                
+              </div>
+            </div>
+
+          </div>
+        </form>
+      </div>
+    
+    </div>
+
+
+  </body>
+</html>
